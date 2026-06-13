@@ -23,7 +23,7 @@ Create an interactive number guessing game using Python.
 
 ### Project Structure
 
-Task2-Number-Guessing-Game/
+-Number-Guessing-Game/
 │
 ├── guessing_game.py
 └── README.md
