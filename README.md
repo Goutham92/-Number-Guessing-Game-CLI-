@@ -1,11 +1,14 @@
-# -Number-Guessing-Game-CLI-
-an interactive number guessing game built with Python featuring random number generation, hints, and attempt tracking.
+# synent-task2-numberguessinggame-gorlagoutham
 
-## Synent Technologies – Python Development Internship Program
+## Task 2: Number Guessing Game (CLI)
+
+### Developer
+
+Gorla Goutham
 
 ### Objective
 
-Create an interactive number guessing game using Python.
+Create an interactive number guessing game using Python where the user attempts to guess a randomly generated number.
 
 ### Features
 
@@ -13,64 +16,81 @@ Create an interactive number guessing game using Python.
 * Multiple guessing attempts
 * Hint system (Too High / Too Low)
 * Attempt counter
-* User-friendly command-line interface
+* Command-line interface
 
 ### Technologies Used
 
 * Python 3
-* Visual Studio Code (VS Code)
+* VS Code
 * GitHub
 
 ### Project Structure
 
--Number-Guessing-Game/
+```text
+synent-task2-numberguessinggame-gorlagoutham/
 │
 ├── guessing_game.py
 └── README.md
+```
 
 ### How to Run
 
-1. Open the project folder in VS Code.
-2. Open the terminal.
-3. Run the following command:
+1. Clone the repository.
 
+```bash
+git clone https://github.com/Goutham92/synent-task2-numberguessinggame-gorlagoutham.git
+```
+
+2. Navigate to the project folder.
+
+```bash
+cd synent-task2-numberguessinggame-gorlagoutham
+```
+
+3. Run the program.
+
+```bash
 python guessing_game.py
-
-4. Enter your guesses until you find the correct number.
+```
 
 ### Sample Output
 
+```text
 Welcome to the Number Guessing Game!
 
 Guess a number between 1 and 100
 
 Enter your guess: 50
-
-Too Low! Try again.
+Too Low! Try Again.
 
 Enter your guess: 75
-
-Too High! Try again.
+Too High! Try Again.
 
 Enter your guess: 63
-
 Congratulations! You guessed the correct number.
 
 Total Attempts: 3
+```
 
 ### Learning Outcomes
 
-* Python random module
-* Loops and conditional statements
-* User input handling
-* Exception handling
-* Command-line application development
+* Python Random Module
+* Loops and Conditional Statements
+* User Input Handling
+* Exception Handling
+* CLI Application Development
+
+### Internship Details
+
+Organization: Synent Technologies
+
+Domain: Python Development Internship Program
+
+Task Number: 2
+
+Task Name: Number Guessing Game (CLI)
 
 ### Author
 
-gorla goutham
-
-### Internship Submission
-
-This project was developed as part of the Synent Technologies Python Development Internship Program.
+Gorla Goutham
 
